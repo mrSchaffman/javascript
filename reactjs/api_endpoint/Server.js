@@ -8,7 +8,7 @@ const app = express();
 
 const DATA_FILE = path.join(__dirname, 'data.json');
 
-app.set('port', (process.env.PORT || 3000));
+app.set('port', (process.env.PORT || 3001));
 
 app.use('/', express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.json());
@@ -114,5 +114,5 @@ app.get('/molasses', (_, res) => {
 });
 
 app.listen(app.get('port'), () => {
-    console.log(`Find the server at: http://localhost:${app.get('port')}/`); // eslint-disable-line no-console
+    console.log(`Find the Server at: http://localhost:${app.get('port')}/`); // eslint-disable-line no-console
 });
