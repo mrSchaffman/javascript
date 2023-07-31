@@ -1,4 +1,4 @@
-import TimersDashboard from "./components/TimersDashboard";
+import TimersDashboard from "./view/TimersDashboard";
 
 function App() {
   return (
