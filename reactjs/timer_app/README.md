@@ -5,3 +5,6 @@
 In the project directory, you can run:
 
 ### `npm start`
+
+And then run
+### `node src/server/server.js`

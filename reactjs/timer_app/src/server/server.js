@@ -28,7 +28,7 @@ app.get('/api/timers', (req, res) => {
 
     fs.readFile(DATA_FILE, (err, data) => {
         //console.log(data);
-        res.json(JSON.parse(data));
+        res.json(JSON.parse(data).timers);
     }
     );
 });
