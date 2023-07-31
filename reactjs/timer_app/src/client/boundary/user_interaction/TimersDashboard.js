@@ -1,6 +1,6 @@
 import React from "react";
-import EditableTimerList from "./EditableTimerList";
-import ToggleableTimerForm from "./ToggleableTimerForm";
+import EditableTimerList from "./entity/EditableTimerList";
+import ToggleableTimerForm from "./entity/ToggleableTimerForm";
 export default class TimersDashboard extends React.Component{
     render() {
         return (

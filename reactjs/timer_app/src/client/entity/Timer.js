@@ -1,5 +1,5 @@
 import React from "react";
-import TimeConverter from "./logic/service/TimeConverter";
+import TimeConverter from "../logic/service/TimeConverter";
 
 export default class Timer extends React.Component {
     render() {
