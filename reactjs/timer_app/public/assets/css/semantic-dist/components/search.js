@@ -1224,18 +1224,18 @@ $.fn.search.settings = {
 
   // maps api response attributes to internal representation
   fields: {
-    categories      : 'results',     // array of categories (category view)
-    categoryName    : 'name',        // name of category (category view)
-    categoryResults : 'results',     // array of results (category view)
+    categories      : 'results',     // array of categories (category client)
+    categoryName    : 'name',        // name of category (category client)
+    categoryResults : 'results',     // array of results (category client)
     description     : 'description', // result description
     image           : 'image',       // result image
     price           : 'price',       // result price
     results         : 'results',     // array of results (standard)
     title           : 'title',       // result title
     url             : 'url',         // result url
-    action          : 'action',      // "view more" object name
-    actionText      : 'text',        // "view more" text
-    actionURL       : 'url'          // "view more" url
+    action          : 'action',      // "client more" object name
+    actionText      : 'text',        // "client more" text
+    actionURL       : 'url'          // "client more" url
   },
 
   selector : {

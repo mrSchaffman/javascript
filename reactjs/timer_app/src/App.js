@@ -1,4 +1,4 @@
-import TimersDashboard from "./view/TimersDashboard";
+import TimersDashboard from "./client/boundary/user_interaction/TimersDashboard";
 
 function App() {
   return (
